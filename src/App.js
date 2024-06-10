@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
       
         <p>
-         I/O Extended Maiduguri 2024
+         I/O Extended Maiduguri 2024 Landing
         </p>
        
       </header>
