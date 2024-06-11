@@ -1,15 +1,12 @@
 import './App.css';
+import HomePage from './pages/HomePage';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      
-        <p>
-         I/O Extended Maiduguri 2024 Landing
-        </p>
-       
-      </header>
+      <HomePage />
     </div>
   );
 }
