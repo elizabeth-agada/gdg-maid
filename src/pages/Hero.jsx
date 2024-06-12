@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; // Import Slick CSS files
-import SpeakerSection from './SpeakerSection';
 
 function Hero() {
   const carouselImages = [
@@ -66,26 +65,21 @@ function Hero() {
         </div>
 
         <Slider {...settings}>
-          {carouselImages.map((initiative, index) => (
-            <div key={index} className="">
-              <a href={initiative.link} className="block"> {/* Wrap the entire card content in an anchor tag */}
+          {carouselImages.map((carouselImages, index) => (
+            <div key={index} className="mt-10">
                 <div className="bg-white rounded-lg shadow-md overflow-hidden mx-2">
                   <img
-                    src={initiative.image}
-                    alt={initiative.title}
-                    className="w-full h-12 md:h-48 object-cover"
+                    src={carouselImages.image}
+                    alt={carouselImages.title}
+                    className="w-full h-full object-cover"
                   />
-                  <div className="text-left">
-                    <h3 className="md:text-xl font-bold mb-2">{initiative.title}</h3>
-                    
-                  </div>
                 </div>
-              </a>
+          
             </div>
           ))}
         </Slider>
       </section>
-      <SpeakerSection />
+     
       </div>
 
       

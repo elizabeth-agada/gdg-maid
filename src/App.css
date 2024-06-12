@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+/* SpeakerSection.css */
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.moving-text {
+  display: flex;
+  animation: moveText 20s linear infinite;
+}
+
+.animate-moveText {
+  margin-right: 1rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
