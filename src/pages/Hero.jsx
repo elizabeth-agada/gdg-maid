@@ -49,7 +49,7 @@ function Hero() {
 
 
   return (
-    <div className="min-h-screen">
+    <div className="">
   
       {/* Hero Section */}
       <section className="bg-[#EEEEEE] py-24 px-8 md:px-16 lg:px-32">
