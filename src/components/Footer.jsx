@@ -11,7 +11,7 @@ function Footer() {
           <img src="./img/Logo.png" alt="Your Logo" className="h-8 mb-4 md:mb-0" />
 
           {/* Links */}
-          <ul className="flex flex-col md:flex-row md:space-x-8 text-center md:text-left mb-4 md:mb-0">
+          <ul className="flex flex-col md:flex-row md:space-x-8 md:text-left mb-4 md:mb-0 text-left">
           <li>
               <a href="#speakers" className="block text-gray-800 py-2 px-4 hover:text-[#428EFF] hover:underline">Topics</a>
             </li>
@@ -19,7 +19,7 @@ function Footer() {
               <a href="#speakers" className="block text-gray-800 py-2 px-4 hover:text-[#428EFF] hover:underline">Speakers</a>
             </li>
             <li>
-              <a href="#swags" className="block text-gray-800 py-2 px-4 hover:text-[#428EFF] hover:underline">Swags</a>
+              <a href="#swag" className="block text-gray-800 py-2 px-4 hover:text-[#428EFF] hover:underline">Swags</a>
             </li>
             <li>
               <a href="#venue" className="block text-gray-800 py-2 px-4 hover:text-[#428EFF] hover:underline">Venue</a>
@@ -29,13 +29,13 @@ function Footer() {
           {/* Social Media Icons */}
           <div className="flex space-x-4 py-2 px-4 border-t md:border-none">
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-[#428EFF]">
-              <FontAwesomeIcon icon={faXTwitter} size="x" />
+              <FontAwesomeIcon icon={faXTwitter} size="xs" />
             </a>
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-[#428EFF]">
-              <FontAwesomeIcon icon={faYoutube} size="x" />
+              <FontAwesomeIcon icon={faYoutube} size="xs" />
             </a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-[#428EFF]">
-              <FontAwesomeIcon icon={faFacebookF} size="x" />
+              <FontAwesomeIcon icon={faFacebookF} size="xs" />
             </a>
           </div>
         </div>

@@ -8,18 +8,14 @@ const partners = [
 
 function PartnerSection() {
   return (
-    <section id="partners" className="py-16 px-8 md:px-16 lg:px-32 bg-[#202124]">
-     
-
-      {/* Partners Heading */}
-      <div>
-        <h2 className="text-3xl  text-[#FFFFFF] mt-10 text-left px-8">Partners</h2>
-        <div className="md:flex m-4 md:max-w-7xl gap-3 md:mx-auto">
+    <section id="partners" className="py-5 md:py-16 px-8 md:px-32 bg-[#202124]">
+      <div className='space-y-8'>
+        <h2 className="text-3xl text-[#FFFFFF] mt-10 text-left">Partners</h2>
+        <div className="grid md:grid-cols-12 md:max-w-8xl gap-3 md:mx-auto">
           {partners.map(partner => (
-            <div key={partner.id} className="m-4">
+            <div key={partner.id} className="col-span-6">
               <a href='#partners'>
               <img src={partner.image} alt={partner.name} className="w-full h-auto rounded-md" />
-              <h3 className="text-xl font-semibold text-center mt-4">{partner.name}</h3>
               </a>
             </div>
           ))}
