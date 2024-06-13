@@ -651,10 +651,6 @@ video {
   margin-top: 1rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
-}
-
 .block{
   display: block;
 }
@@ -709,10 +705,6 @@ video {
 
 .max-w-3xl{
   max-width: 48rem;
-}
-
-.max-w-xl{
-  max-width: 36rem;
 }
 
 .flex-col{
@@ -866,6 +858,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -992,6 +989,10 @@ video {
     margin-top: 0px;
   }
 
+  .md\:mt-8{
+    margin-top: 2rem;
+  }
+
   .md\:block{
     display: block;
   }
@@ -1010,6 +1011,10 @@ video {
 
   .md\:w-auto{
     width: auto;
+  }
+
+  .md\:max-w-xl{
+    max-width: 36rem;
   }
 
   .md\:grid-cols-12{
@@ -1076,6 +1081,11 @@ video {
   .md\:text-6xl{
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 

@@ -60,7 +60,7 @@ function Hero() {
           <h1 className="text-xl md:text-3xl text-[#202124] md:mb-8 mb-4 font-google-sans">
             6th July, 2024 | 9:00 AM - 2:00 PM
           </h1>
-          <img src='/img/Group 10.png' alt='sketch' className='mx-auto' />
+          <img src='/img/Group 10.png' alt='sketch' className='mx-auto h-full' />
         </div>
 
         <Slider {...settings}>
