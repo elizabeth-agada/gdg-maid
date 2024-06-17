@@ -24,7 +24,7 @@ function Navbar() {
         </ul>
 
         {/* Button */}
-      <div className="md:py-2 md:px-4 border-t md:border-none md:p-0 md:ml-8 mt-4 md:mt-0 text-center">
+      <div className="md:py-2 md:px-4 border-t md:border-none md:p-0 md:ml-8 mt-4 md:mt-0 text-center hidden md:block">
         <button className="bg-[#428EFF] text-white md:px-4 px-2 py-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
           Reserve a seat
         </button>
@@ -42,7 +42,7 @@ function Navbar() {
       </div>
 
       {/* Mobile Menu Items */}
-      <div className={`absolute top-16 left-0 w-full bg-[#EEEEEE] md:relative md:top-0 md:left-auto md:w-auto ${isMenuOpen ? 'block' : 'hidden'} md:block`}>
+      <div className={`absolute top-14 left-0 w-full bg-[#EEEEEE] md:relative md:top-0 md:left-auto md:w-auto ${isMenuOpen ? 'block' : 'hidden'} md:block`}>
         <ul className="block md:space-x-8 md:hidden">
           <li className="border-t md:border-none">
             <a href="#speakers" className="block text-gray-800 py-2 px-4 hover:text-[#428EFF]">Speakers</a>
@@ -54,6 +54,11 @@ function Navbar() {
             <a href="#venue" className="block text-gray-800 py-2 px-4 hover:text-[#428EFF]">Venue</a>
           </li>
         </ul>
+        <div className="md:py-2 md:px-4 border-t md:border-none md:p-0 md:ml-8 mt-4 md:mt-0 text-center mb-5 px-10 md:hidden">
+        <button className="bg-[#428EFF] text-white md:px-4 px-2 py-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
+          Reserve a seat
+        </button>
+      </div>
       </div>
 
     </nav>

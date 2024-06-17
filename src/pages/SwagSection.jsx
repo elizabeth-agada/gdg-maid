@@ -2,8 +2,8 @@ import React from 'react';
 import '../App.css';
 
 const swagItems = [
-  { id: 1, image: '/img/Frame 15 (3).png'},
-  { id: 2, image: '/img/Frame 18 (1).png'},
+  { id: 1, image: '/img/Frame 15 .png'},
+  { id: 2, image: '/img/Frame 18 (3).png'},
   { id: 3, image: '/img/Frame 20.png'},
 ];
 

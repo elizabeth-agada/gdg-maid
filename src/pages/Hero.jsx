@@ -66,7 +66,7 @@ function Hero() {
         <Slider {...settings}>
           {carouselImages.map((image, index) => (
             <div key={index} className="mt-10">
-              <div className="bg-white rounded-lg shadow-md overflow-hidden mx-2">
+              <div className="bg-white shadow-md overflow-hidden mx-2">
                 <img
                   src={image.image}
                   alt={`Carousel ${index}`}
@@ -76,7 +76,14 @@ function Hero() {
             </div>
           ))}
         </Slider>
+        
       </section>
+      <div className="text-center py-20 space-y-5 px-10 md:px-0 bg-[#FFFFFF]">
+          <h2 className="md:text-4xl mb-2 font-google-sans text-2xl">Register today to attend</h2>
+          <button className="bg-[#428EFF] text-white md:px-4 py-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
+          Reserve a seat
+        </button>
+        </div>
     </div>
   );
 }

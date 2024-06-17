@@ -10,11 +10,11 @@ function VenueSection() {
       <div className='font-google-sans'>
         <div className="flex justify-center items-center">
         <img src="/img/map-pin-range-line.png" alt="" className="h-8" />
-        <h2 className="md:text-3xl text-center text-[#FFFFFF]">Venue</h2>
+        <h2 className="font-google-sans md:text-3xl text-center text-[#FFFFFF]">Venue</h2>
         </div>
-        <div className="mt-4 md:mt-8 flex flex-col items-center text-center md:max-w-xl text-[#FFFFFF] mx-auto text-sm md:text-xl">
-          <h2 className="">Abdul Samad Rabiu International Center for Innovation and Entrepreneurship, University of Maiduguri</h2>
-          <h2 className="">6th July, 2024 | 9:00 AM - 2:00 PM</h2>
+        <div className="flex flex-col items-center text-center md:max-w-xl text-[#FFFFFF] mx-auto text-sm md:text-xl">
+          <h2 className="font-google-sans">Abdul Samad Rabiu International Center for Innovation and Entrepreneurship, University of Maiduguri </h2>
+          <h2 className="font-google-sans">6th July, 2024 | 9:00 AM - 2:00 PM</h2>
         </div>
       </div>
     </section>

@@ -2,17 +2,17 @@ import React from 'react';
 import '../App.css';
 
 const speakers = [
-  { id: 1, image: '/img/Frame 14 (4).png'},
-  { id: 2, image: '/img/Frame 15 (5).png'},
-  { id: 3, image: '/img/Frame 16 (4).png'},
+  { id: 1, image: '/img/Frame 14.png'},
+  { id: 2, image: '/img/Frame 15.png'},
+  { id: 3, image: '/img/Frame 16.png'},
 ];
 
 const panelists = [
-  { id: 1, image: '/img/Frame 14 (2).png'},
-  { id: 2, image: '/img/Frame 15 (4).png'},
-  { id: 3, image: '/img/Frame 16 (3).png'},
-  { id: 4, image: '/img/Frame 17 (2).png'},
-  { id: 5, image: '/img/Frame 18 (2).png'},
+  { id: 1, image: '/img/Frame 14 (1).png'},
+  { id: 2, image: '/img/Frame 15 (1).png'},
+  { id: 3, image: '/img/Frame 16 (1).png'},
+  { id: 4, image: '/img/Frame 17.png'},
+  { id: 5, image: '/img/Frame 18.png'},
 ];
 
 function SpeakerSection() {
@@ -32,7 +32,7 @@ function SpeakerSection() {
       </div>
       <div className="">
       {/* Speakers Heading */}
-      <div className='space-y-8'>
+      <div className='space-y-10'>
         <h2 className="text-3xl text-[#FFFFFF] mt-10 text-left ">Speakers</h2>
         <div className="grid md:grid-cols-12 md:max-w-8xl gap-3 md:mx-auto">
           {speakers.map(speaker => (
