@@ -48,7 +48,7 @@ function SpeakerSection() {
         <h2 className="text-3xl text-left text-[#FFFFFF] mt-20">Panelists</h2>
         <div className="grid md:grid-cols-12 md:max-w-8xl gap-3 md:mx-auto">
           {panelists.map(panelist => (
-            <div key={panelist.id} className="col-span-4">
+            <div key={panelist.id} className="col-span-4 mb-5">
               <img src={panelist.image} alt={`Panelist ${panelist.id}`} className="w-full h-auto rounded-md" />
             </div>
           ))}
