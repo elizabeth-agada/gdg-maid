@@ -17,7 +17,7 @@ const panelists = [
 
 function SpeakerSection() {
   return (
-    <section id="speakers" className="py-16 px-8 md:px-32 bg-[#202124]">
+    <section id="speakers" className="md:py-10 px-8 md:px-32 bg-[#202124]">
       {/* Moving Text */}
       <div className="overflow-hidden">
         <div className="moving-text whitespace-nowrap text-[#FFFFFF] py-4 items-center text-2xl font-google-sans">

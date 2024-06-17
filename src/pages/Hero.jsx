@@ -57,7 +57,7 @@ function Hero() {
           <h2 className="font-bold text-[#202124] md:text-6xl mb-2 font-google-sans text-2xl stroke-black">
             Exploring AI
           </h2>
-          <h1 className="text-xl md:text-3xl text-[#202124] md:mb-8 mb-4 font-google-sans">
+          <h1 className="text-lg md:text-3xl text-[#202124] md:mb-8 mb-4 font-google-sans">
             6th July, 2024 | 9:00 AM - 2:00 PM
           </h1>
           <img src='/img/Group 10.png' alt='sketch' className='mx-auto h-full' />
@@ -78,7 +78,7 @@ function Hero() {
         </Slider>
         
       </section>
-      <div className="text-center py-20 space-y-5 px-10 md:px-0 bg-[#FFFFFF]">
+      <div className="text-center p-5 md:p-8 space-y-5 px-10 md:px-0 bg-[#FFFFFF]">
           <h2 className="md:text-4xl mb-2 font-google-sans text-2xl">Register today to attend</h2>
           <button className="bg-[#428EFF] text-white md:px-4 py-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
           Reserve a seat
