@@ -16,7 +16,7 @@ function VenueSection() {
           <h2>6th July, 2024 | 9:00 AM - 2:00 PM</h2>
         </div>
         {/* Venue Image */}
-      <img src='/img/icon/Group 0.png' alt='sketch' className='mx-auto mt-10 mb-0 h-full stretch-img' />
+      <img src='/img/icon/Group 0.png' alt='sketch' className='mx-auto mt-10 mb-0 h-full stretch-img md:max-w-3xl' />
 
       </div>
       
