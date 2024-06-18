@@ -8,7 +8,7 @@ function Footer() {
       <div className="container mx-auto px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Logo */}
-          <img src="./img/Logo.png" alt="Your Logo" className="h-8 mb-4 md:mb-0" />
+          <img src="./img/logo/Logo.png" alt="Your Logo" className="h-8 mb-4 md:mb-0" />
 
           {/* Links */}
           <ul className="flex flex-col md:flex-row md:space-x-8 md:text-left mb-4 md:mb-0 text-left">

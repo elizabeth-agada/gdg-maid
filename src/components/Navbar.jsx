@@ -8,7 +8,7 @@ function Navbar() {
       <div className="flex justify-between items-center">
 
         {/* Logo (Left) */}
-        <img src="./img/Logo.png" alt="Your Logo" className="h-4 md:h-8" />
+        <img src="./img/logo/Logo.png" alt="Your Logo" className="h-4 md:h-8" />
 
         {/* Desktop Menu Items */}
         <ul className="md:flex md:space-x-8 hidden">
@@ -25,9 +25,9 @@ function Navbar() {
 
         {/* Button */}
       <div className="md:py-2 md:px-4 border-t md:border-none md:p-0 md:ml-8 mt-4 md:mt-0 text-center hidden md:block">
-        <button className="bg-[#428EFF] text-white md:px-4 px-2 py-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
+        <a href='https://gdg.community.dev/e/mwea6d/' className="bg-[#428EFF] text-white md:px-4 px-2 py-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
           Reserve a seat
-        </button>
+        </a>
       </div>
 
         {/* Mobile Menu Button */}
@@ -55,9 +55,9 @@ function Navbar() {
           </li>
         </ul>
         <div className="md:py-2 md:px-4 border-t md:border-none md:p-0 md:ml-8 mt-4 md:mt-0 text-center mb-5 px-10 md:hidden">
-        <button className="bg-[#428EFF] text-white md:px-4 px-2 py-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
+        <a href='https://gdg.community.dev/e/mwea6d/' className="bg-[#428EFF] text-white md:px-4 px-2 py-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
           Reserve a seat
-        </button>
+        </a>
       </div>
       </div>
 

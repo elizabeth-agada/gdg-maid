@@ -1,8 +1,8 @@
 import React from 'react';
 
 const partners = [
-  { id: 1, image: '/img/Frame 15 (2).png'},
-  { id: 2, image: '/img/Frame 16 (2).png'},
+  { id: 1, image: '/img/partner/Frame 15 (5).png'},
+  { id: 2, image: '/img/partner/Frame 16 (2).png'},
   
 ];
 

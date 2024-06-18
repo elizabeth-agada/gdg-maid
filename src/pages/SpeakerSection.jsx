@@ -2,17 +2,17 @@ import React from 'react';
 import '../App.css';
 
 const speakers = [
-  { id: 1, image: '/img/Frame 14.png'},
-  { id: 2, image: '/img/Frame 15.png'},
-  { id: 3, image: '/img/Frame 16.png'},
+  { id: 1, image: '/img/speaker/Frame 14.png'},
+  { id: 2, image: '/img/speaker/Frame 15.png'},
+  { id: 3, image: '/img/speaker/Frame 16.png'},
 ];
 
 const panelists = [
-  { id: 1, image: '/img/Frame 14 (1).png'},
-  { id: 2, image: '/img/Frame 15 (1).png'},
-  { id: 3, image: '/img/Frame 16 (1).png'},
-  { id: 4, image: '/img/Frame 17.png'},
-  { id: 5, image: '/img/Frame 18.png'},
+  { id: 1, image: '/img/panelist/Frame 14 (2).png'},
+  { id: 2, image: '/img/panelist/Frame 15 (1).png'},
+  { id: 3, image: '/img/panelist/Frame 16 (1).png'},
+  { id: 4, image: '/img/panelist/Frame 17.png'},
+  { id: 5, image: '/img/panelist/Frame 18 (2).png'},
 ];
 
 function SpeakerSection() {
@@ -22,11 +22,11 @@ function SpeakerSection() {
       <div className="overflow-hidden">
         <div className="moving-text whitespace-nowrap text-[#FFFFFF] py-4 items-center text-2xl font-google-sans">
           <span className="inline-block animate-moveText">Android 15</span>
-          <img src="/img/Ellipse 5.png" alt="" className="h-5 px-5" />
+          <img src="/img/icon/Ellipse 5.png" alt="" className="h-5 px-5" />
           <span className="inline-block animate-moveText">⁠Security & AI</span>
-          <img src="/img/Ellipse 5.png" alt="" className="h-5 px-5" />
+          <img src="/img/icon/Ellipse 5.png" alt="" className="h-5 px-5" />
           <span className="inline-block animate-moveText">⁠Fireside Chat | IO Recap</span>
-          <img src="/img/Ellipse 5.png" alt="" className="h-5 px-5" />
+          <img src="/img/icon/Ellipse 5.png" alt="" className="h-5 px-5" />
           <span className="inline-block animate-moveText">AI for developers with Gemini in Android Studio</span>
         </div>
       </div>
