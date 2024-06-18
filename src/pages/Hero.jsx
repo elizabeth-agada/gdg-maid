@@ -79,8 +79,8 @@ function Hero() {
         
       </section>
       <div className="text-center p-5 md:p-12 px-10 md:px-0 bg-[#FFFFFF]">
-          <h2 className="md:text-4xl md:mb-5 font-google-sans text-2xl">Register today to attend</h2>
-          <a href='https://gdg.community.dev/e/mwea6d/' className="bg-[#428EFF] text-white md:px-4 py-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
+          <h2 className="md:text-4xl mb-3 md:mb-5 font-google-sans text-2xl">Register today to attend</h2>
+          <a href='https://gdg.community.dev/e/mwea6d/' className="bg-[#428EFF] text-white md:px-4 py-2 px-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
           Reserve a seat
         </a>
         </div>
