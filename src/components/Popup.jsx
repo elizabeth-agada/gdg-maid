@@ -56,7 +56,7 @@ function Popup({ item, onClose }) {
               <p className='text-sm'>Account Name</p>
               <p className="">Fatima Ibrahim Muhammad</p>
             </div>
-            <button onClick={() => copyToClipboard('902773602')} className="copy-button">
+            <button onClick={() => copyToClipboard('Opay 902773602 Fatima Ibrahim Muhammad')} className="copy-button">
               <FontAwesomeIcon icon={faCopy} />
             </button>
           </div>
