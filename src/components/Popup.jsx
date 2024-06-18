@@ -30,7 +30,7 @@ function Popup({ item, onClose }) {
   return (
     <div className="popup-overlay overflow-y-scroll">
       <div className="popup">
-        <button className="popup-close" onClick={onClose}>
+        <button className="popup-close py-5 popup-section" onClick={onClose}>
           <FontAwesomeIcon icon={faTimes} />
         </button>
         <h2 className="popup-title">Want to be part of the IO extended experience? Get a ioExtended {item.name} for just {item.price}.</h2>
@@ -56,7 +56,7 @@ function Popup({ item, onClose }) {
               <p className='text-sm'>Account Name</p>
               <p className="">Fatima Ibrahim Muhammad</p>
             </div>
-            <button onClick={() => copyToClipboard('Opay 902773602 Fatima Ibrahim Muhammad')} className="copy-button">
+            <button onClick={() => copyToClipboard('Bank:Opay', 'Account No.:902773602', 'Account Name:Fatima Ibrahim Muhammad')} className="copy-button">
               <FontAwesomeIcon icon={faCopy} />
             </button>
           </div>

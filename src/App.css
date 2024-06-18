@@ -97,7 +97,7 @@ body {
 
 .popup-close {
   position: absolute;
-  top: 32px;
+  top: 40px;
   right: 10px;
   background: transparent;
   border: none;
@@ -120,14 +120,14 @@ body {
 }
 
 .popup-section {
-  background: #202124;
-  color: #FFFFFF;
+ 
+  color: #202124;
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 
