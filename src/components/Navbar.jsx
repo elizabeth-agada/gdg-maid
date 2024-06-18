@@ -8,8 +8,9 @@ function Navbar() {
       <div className="flex justify-between items-center">
 
         {/* Logo (Left) */}
-        <img src="./img/logo/Logo.png" alt="Your Logo" className="h-4 md:h-8" />
-
+        <a href="/" className="">
+          <img src="./img/logo/Logo.png" alt="Your Logo" className="h-4 md:h-8" />
+        </a>
         {/* Desktop Menu Items */}
         <ul className="md:flex md:space-x-8 hidden">
           <li className="border-t md:border-none">
