@@ -17,10 +17,10 @@ const panelists = [
 
 function SpeakerSection() {
   return (
-    <section id="speakers" className="md:py-10 px-8 md:px-32 bg-[#202124]">
+    <section className="md:py-10 px-8 md:px-32 bg-[#202124]">
       {/* Moving Text */}
       <div className="overflow-hidden">
-        <div className="moving-text whitespace-nowrap text-[#FFFFFF] py-4 items-center text-2xl font-google-sans">
+        <div id="topics" className="moving-text whitespace-nowrap text-[#FFFFFF] py-4 items-center text-2xl font-google-sans">
           <span className="inline-block animate-moveText">Android 15</span>
           <img src="/img/icon/Ellipse 5.png" alt="" className="h-5 px-5" />
           <span className="inline-block animate-moveText">⁠Security & AI</span>
@@ -30,7 +30,7 @@ function SpeakerSection() {
           <span className="inline-block animate-moveText">AI for developers with Gemini in Android Studio</span>
         </div>
       </div>
-      <div className="">
+      <div id="speakers" className="">
       {/* Speakers Heading */}
       <div className='space-y-10'>
         <h2 className="md:text-3xl text-xl text-[#FFFFFF] mt-10 text-left ">Speakers</h2>

@@ -13,7 +13,7 @@ function Footer() {
           {/* Links */}
           <ul className="flex flex-col md:flex-row md:space-x-8 md:text-left mb-4 md:mb-0 text-left">
           <li>
-              <a href="#speakers" className="block text-gray-800 py-2 px-4 hover:text-[#428EFF] hover:underline">Topics</a>
+              <a href="#topics" className="block text-gray-800 py-2 px-4 hover:text-[#428EFF] hover:underline">Topics</a>
             </li>
             <li>
               <a href="#speakers" className="block text-gray-800 py-2 px-4 hover:text-[#428EFF] hover:underline">Speakers</a>
