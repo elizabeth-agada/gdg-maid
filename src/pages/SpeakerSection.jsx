@@ -33,7 +33,7 @@ function SpeakerSection() {
       <div className="">
       {/* Speakers Heading */}
       <div className='space-y-10'>
-        <h2 className="text-3xl text-[#FFFFFF] mt-10 text-left ">Speakers</h2>
+        <h2 className="md:text-3xl text-xl text-[#FFFFFF] mt-10 text-left ">Speakers</h2>
         <div className="grid md:grid-cols-12 md:max-w-8xl gap-3 md:mx-auto">
           {speakers.map(speaker => (
             <div key={speaker.id} className="col-span-4">
@@ -45,7 +45,7 @@ function SpeakerSection() {
 
       {/* Panelists Heading */}
       <div className='space-y-8'>
-        <h2 className="text-3xl text-left text-[#FFFFFF] mt-20">Panelists</h2>
+        <h2 className="md:text-3xl text-xl text-left text-[#FFFFFF] mt-20">Panelists</h2>
         <div className="grid md:grid-cols-12 md:max-w-8xl gap-3 md:mx-auto">
           {panelists.map(panelist => (
             <div key={panelist.id} className="col-span-4 mb-5">

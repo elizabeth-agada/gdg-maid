@@ -60,7 +60,8 @@ function Hero() {
           <h1 className="text-lg md:text-3xl text-[#202124] md:mb-8 mb-4 font-google-sans">
             6th July, 2024 | 9:00 AM - 2:00 PM
           </h1>
-          <img src='/img/icon/Group 10.png' alt='sketch' className='mx-auto mt-10 mb-0 h-full' />
+          <img src='/img/icon/Group 10.png' alt='sketch' className='mx-auto mt-10 mb-0 h-full stretch-img' />
+
         </div>
 
         <Slider {...settings}>
@@ -79,7 +80,7 @@ function Hero() {
         
       </section>
       <div className="text-center p-5 md:p-12 px-10 md:px-0 bg-[#FFFFFF]">
-          <h2 className="md:text-4xl mb-3 md:mb-5 font-google-sans text-2xl">Register today to attend</h2>
+          <h2 className="md:text-4xl mb-3 md:mb-5 font-google-sans text-xl">Register today to attend</h2>
           <a href='https://gdg.community.dev/e/mwea6d/' className="bg-[#428EFF] text-white md:px-4 py-2 px-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
           Reserve a seat
         </a>

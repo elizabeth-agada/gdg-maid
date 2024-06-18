@@ -10,7 +10,7 @@ function PartnerSection() {
   return (
     <section id="partners" className="py-5 md:py-16 px-8 md:px-32 bg-[#202124]">
       <div className='space-y-8'>
-        <h2 className="text-3xl text-[#FFFFFF] mt-10 text-left">Partners</h2>
+        <h2 className="md:text-3xl text-xl text-[#FFFFFF] mt-10 text-left">Partners</h2>
         <div className="grid md:grid-cols-12 md:max-w-8xl gap-3 md:mx-auto">
           {partners.map(partner => (
             <div key={partner.id} className="col-span-6">

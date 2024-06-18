@@ -18,7 +18,8 @@ function VenueSection() {
       </div>
       
       {/* Venue Image */}
-      <img src='/img/icon/Group 0.png' alt='sketch' className='md:max-w-5xl mx-auto mt-10 mb-0 h-full' />
+      <img src='/img/icon/Group 0.png' alt='sketch' className='mx-auto mt-10 mb-0 h-full stretch-img' />
+
     </section>
   );
 }

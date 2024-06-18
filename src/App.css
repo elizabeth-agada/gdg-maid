@@ -153,6 +153,13 @@ body {
 
 }
 
+.stretch-img {
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+  object-fit: contain; /* Or 'cover', 'fill', 'scale-down' based on your design needs */
+}
+
+
 
 
 
