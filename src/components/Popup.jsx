@@ -7,16 +7,15 @@ function Popup({ item, onClose }) {
 
   const copyToClipboard = (text) => {
     navigator.clipboard.writeText(text).then(() => {
-      alert('Copied to clipboard!');
+      console.log('Copied to clipboard!');
     }, (err) => {
       console.error('Could not copy text: ', err);
     });
   };
 
   const handleContactAction = (phoneNumber) => {
-   
-    alert(`Calling ${phoneNumber}...`);
-   
+    // Direct user to phone app with the number pre-filled
+    window.location.href = `tel:${phoneNumber}`;
   };
 
   useEffect(() => {
