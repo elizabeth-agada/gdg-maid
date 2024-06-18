@@ -15,11 +15,12 @@ function VenueSection() {
           <h2>Abdul Samad Rabiu International Center for Innovation and Entrepreneurship, University of Maiduguri</h2>
           <h2>6th July, 2024 | 9:00 AM - 2:00 PM</h2>
         </div>
-      </div>
-      
-      {/* Venue Image */}
+        {/* Venue Image */}
       <img src='/img/icon/Group 0.png' alt='sketch' className='mx-auto mt-10 mb-0 h-full stretch-img' />
 
+      </div>
+      
+      
     </section>
   );
 }
