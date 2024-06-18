@@ -4,7 +4,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-[#EEEEEE] shadow-md fixed top-0 left-0 right-0 px-2 md:px-8 py-4 z-10">
+    <nav className="bg-[#EEEEEE] shadow-md fixed top-0 left-0 right-0 px-2 md:px-8 py-4 z-10 font-google-sans">
       <div className="flex justify-between items-center">
 
         {/* Logo (Left) */}
@@ -55,8 +55,8 @@ function Navbar() {
             <a href="#venue" className="block text-gray-800 py-2 px-4 hover:text-[#428EFF]">Venue</a>
           </li>
         </ul>
-        <div className="md:py-2 md:px-4 border-t md:border-none md:p-0 md:ml-8 mt-4 md:mt-0 text-center mb-5 px-10 md:hidden">
-        <a href='https://gdg.community.dev/e/mwea6d/' className="bg-[#428EFF] text-white md:px-4 px-2 py-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
+        <div className="py-4 md:px-4 border-t md:border-none md:p-0 md:ml-8 mt-4 md:mt-0 text-center mb-5 px-10 md:hidden">
+        <a href='https://gdg.community.dev/e/mwea6d/' className="bg-[#428EFF] text-white px-4  py-2 rounded-full hover:bg-blue-600 w-full md:w-auto">
           Reserve a seat
         </a>
       </div>

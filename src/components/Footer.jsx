@@ -4,7 +4,7 @@ import { faXTwitter, faYoutube, faFacebookF } from '@fortawesome/free-brands-svg
 
 function Footer() {
   return (
-    <footer className="bg-[#EEEEEE] shadow-md py-4">
+    <footer className="bg-[#EEEEEE] shadow-md py-4 font-google-sans">
       <div className="container mx-auto px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Logo */}

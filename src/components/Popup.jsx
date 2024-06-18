@@ -28,16 +28,16 @@ function Popup({ item, onClose }) {
   }, []);
 
   return (
-    <div className="popup-overlay overflow-y-scroll">
+    <div className="popup-overlay overflow-y-scroll font-google-sans">
       <div className="popup">
         <button className="popup-close py-5 popup-section" onClick={onClose}>
           <FontAwesomeIcon icon={faTimes} />
         </button>
-        <h2 className="popup-title">Want to be part of the IO extended experience? Get a ioExtended {item.name} for just {item.price}.</h2>
+        <h2 className="popup-title font-google-sans">Want to be part of the IO extended experience? Get a ioExtended {item.name} for just {item.price}.</h2>
         <img src={item.pic} alt={item.name} className="popup-image h-full"/>
         <div className="popup-info space-y-4">
           <div className='flex justify-between bg-[#202124] text-[#FFFFFF] rounded-lg p-5'>
-            <div>
+            <div className='font-google-sans'>
               <h3 className='text-2xl font-bold'>Contact</h3>
               <p className='text-sm'>Phone Number</p>
               <p className='text-lg'>09027736020</p>
@@ -47,7 +47,7 @@ function Popup({ item, onClose }) {
             </button>
           </div>
           <div className='flex justify-between bg-[#202124] text-[#FFFFFF] rounded-lg p-5'>
-            <div>
+            <div className='font-google-sans'>
               <h3 className='text-xl font-bold'>Bank Transfer</h3>
               <p className='text-sm'>Bank Name</p>
               <p className="">Opay</p>

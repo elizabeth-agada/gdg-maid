@@ -21,7 +21,7 @@ function SwagSection() {
   };
 
   return (
-    <section id="swag" className="py-5 md:py-16 px-8 md:px-32 bg-[#EEEEEE]">
+    <section id="swag" className="py-5 md:py-16 px-8 md:px-32 bg-[#EEEEEE] font-google-sans">
       <div className='space-y-10'>
         <h2 className="md:text-3xl text-xl text-[#202124] mt-10 text-left">Swags</h2>
         <div className="md:flex md:max-w-8xl gap-3 md:mx-auto space-y-5 md:space-y-0">

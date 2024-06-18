@@ -3,7 +3,7 @@ import '../App.css';
 
 function VenueSection() {
   return (
-    <section id="venue" className="py-16 px-8 md:px-16 lg:px-32 bg-[#202124] pb-20 relative">
+    <section id="venue" className="py-16 px-8 md:px-16 lg:px-32 bg-[#202124] pb-20 font-google-sans">
       
       {/* Venue Heading */}
       <div className='font-google-sans'>

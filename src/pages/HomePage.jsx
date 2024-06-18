@@ -6,10 +6,11 @@ import SpeakerSection from './SpeakerSection';
 import SwagSection from './SwagSection';
 import PartnerSection from './PartnerSection';
 import VenueSection from './VenueSection';
+import '../App.css';
 
 function HomePage() {
   return (
-    <div>
+    <div className=''>
       <Navbar />
       <Hero />
       <SpeakerSection />
