@@ -1043,6 +1043,10 @@ video {
     margin-top: 0px;
   }
 
+  .md\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
   .md\:block{
     display: block;
   }
